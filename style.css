@@ -1,0 +1,94 @@
+
+body {
+    background: #000;
+}
+
+#container{
+    margin: 0 auto;
+    width: 980px;
+}
+
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.search{
+    padding: 40px 0;
+}
+
+
+.div {
+    width: 15%;
+    padding: 20px;
+}
+
+p {
+    color: white;
+}
+
+.div img {
+    width: 140px;
+    height: 150px;
+    border-radius: 55%;
+
+}
+
+.div h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+input {
+    width: 300px;
+    margin: 40px auto;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    padding: 12px 15px;
+    border-radius: 80px;
+    border: 2px solid #564444;
+    background: transparent
+
+
+}
+.card{
+    text-align: center;
+    width: 100%;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 55%;
+
+}
+.card h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.card h6,p{
+    font-size: 18px;
+    color: white;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+button{
+    width: 90px;
+    height: 25px;
+    border: 1px solid gray;
+    background: transparent;
+    color: white;
+    border-radius: 55px;
+
+}
+p,h1{
+    color: #ffffff;
+}
